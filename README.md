@@ -202,7 +202,7 @@ Deployed using **Render**
 👉 Live API:
 
 ```
-https://your-app-name.onrender.com/docs
+https://helmet-detection-fjxq.onrender.com
 ```
 
 *(Replace with your actual link)*
@@ -257,4 +257,3 @@ https://your-app-name.onrender.com/docs
 ## If you like this project
 
 Give it a ⭐ on GitHub!
-# helmet-detection
