@@ -1,0 +1,8 @@
+path: .
+
+train: data/helmet_detection/train/images
+val: data/helmet_detection/valid/images
+test: data/helmet_detection/test/images
+
+nc: 2
+names: ['helmet', 'no-helmet']

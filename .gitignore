@@ -1,0 +1,27 @@
+# Virtual env
+helmetvenv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Ignore all runs
+runs/*
+
+# Allow required subfolders
+!runs/detect/
+!runs/detect/runs/
+!runs/detect/runs/exp/
+!runs/detect/runs/exp/weights/
+
+# Allow model
+!runs/detect/runs/exp/weights/best.pt
+
+# Logs
+logs/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
