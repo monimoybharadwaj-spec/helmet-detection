@@ -10,6 +10,7 @@ It includes:
 * Data analysis and visualization
 * FastAPI-based inference API
 * Dockerized deployment
+* Web deployment using Render
 
 ---
 
@@ -137,8 +138,7 @@ Due to licensing or availability constraints, the dataset is not included in thi
 
 | Notebook                 | Description                             |
 | ------------------------ | --------------------------------------- |
-| Data Understanding       | Dataset analysis and class distribution |
-|                          | and bounding box verification           |
+| Data Understanding       | Dataset analysis and class distribution and bounding box verification |
 | Training Experiments     | Model insights (analysis only)          |
 | Model Evaluation         | Predictions analysis                    |
 
@@ -204,8 +204,6 @@ Deployed using **Render**
 ```
 https://helmet-detection-fjxq.onrender.com
 ```
-
-*(Replace with your actual link)*
 
 ---
 
