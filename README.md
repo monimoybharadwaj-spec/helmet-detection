@@ -99,7 +99,7 @@ Helmet-Detection/
 
 > 📌  Dataset Note : The dataset was obtained from a publicly available source (e.g., Roboflow/Kaggle) and follows standard object detection annotation practices.
 
-Due to licensing or availability constraints, the dataset is not included in this repository.
+> 📌  Dataset Source : https://universe.roboflow.com/roboflow-universe-projects/hard-hats-fhbh5
 
 ---
 
@@ -170,6 +170,27 @@ Upload an image and get predictions
   ]
 }
 ```
+
+---
+
+## 🎥 Webcam Testing (Local)
+
+- Webcam-based inference was implemented for local testing and validation.
+
+### Files :
+
+- src/helmet/components/webcam.py → Core webcam logic
+
+- scripts/webcam.py → Script to run real-time detection
+
+### Purpose :
+
+- Validate real-time inference
+- Test model responsiveness
+- Observe behavior in dynamic conditions
+
+> ⚠️ Note:
+Webcam functionality is not deployed on cloud platforms (e.g., Render) since they do not have access to local hardware devices.
 
 ---
 
